@@ -93,7 +93,7 @@ var initialOffset = spinner.getInitialOffset();
 spinner.setOffset(initialOffset - ((percent/100) * initialOffset));
 ```
 
-The main APIs for the consumers of this component:
+## The main APIs for the consumers of this component:
 
 ```
 - getInitialOffset()
