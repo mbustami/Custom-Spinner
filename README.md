@@ -50,7 +50,6 @@ const spinner = new Spinner("spinner-wrapper");
 ```
 
 * Then as a consumer of this component, you should add the mathematical equation according to which the circle's stroke-dashoffset property will be decreased.
-
 In other words you should provide how much of the circle will be filled after each round of your process.
 
 ## Important Notes
