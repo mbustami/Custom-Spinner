@@ -53,8 +53,8 @@ const spinner = new Spinner("spinner-wrapper");
 In other words you should provide how much of the circle will be filled after each round of your process.
 
 ## Important Notes
-As a reusable component, the equation that will determine how much of the circle will be filled each round of the process must be provided by the consumer of the component,
-as each consumer might use it differently (to indicate different progress behaviors).
+As a reusable component, the equation that will determine how much of the circle will be filled after each round of the process must be provided by the consumer of the component,
+as each consumer might use the spinner differently (to indicate different progress behaviors).
 
 for example in the example below the Spinner is being used as a timer indicator:
 
