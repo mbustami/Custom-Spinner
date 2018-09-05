@@ -44,7 +44,7 @@ npm test
 import Spinner from './Spinner/Spinner';
 ```
 
-* after that you will need to instantiate an Object from the CustomSpinner Class and provide a valid DOM element's ID as a parameter so the spinner could be rendered inside that element.
+* after that you will need to instantiate an Object from the Spinner Class and provide a valid DOM element's ID as a parameter so the spinner could be rendered inside that element.
 ```
 const spinner = new Spinner("spinner-wrapper");
 ```
