@@ -1,6 +1,6 @@
 # My Custom Spinner
 
-[image]
+![alt text](https://github.com/mbustami/Custom-Spinner/blob/master/custom-spinner.png)
 
 * A reusable Spinner component that's used as a progress indicator.
 * It was used and tested as a files uploading progress indicator, also as a timer progress indicator.
