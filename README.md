@@ -99,9 +99,10 @@ spinner.setOffset(initialOffset - ((percent/100) * initialOffset));
 - getInitialOffset()
 ```
 What do we mean by the InitialOffset, is the stroke-dashoffset property of the spinner's circle,
-which is the pixel circumference of the circle
-it's set statically to 440, as our circle has a radius of 70
-so Math.ceil(r * 2 * Math.PI) will result in 440 in our case
+which is the pixel circumference of the circle.
+
+It's set statically to 440, as our circle has a radius of 70.
+So Math.ceil(r * 2 * Math.PI) will result in 440 in our case
 
 so this method will return the InitialOffset to the consumer;
 
@@ -109,6 +110,7 @@ so this method will return the InitialOffset to the consumer;
 - setOffset()
 ```
 This method is used to set the percentage of the circle that should be filled each round.
+(how much of the InitialOffset will be decreased each round).
 
 ```
 - setStatus()
@@ -125,3 +127,10 @@ spinner.setStatus(percent);
 I've included some tests in the 'spinner.spec.js' file,
 and the last test will act as a consumer component that will use the spinner to inticate a timer progress,
 so it will test that after the timer is done, the circle is completely filled.
+
+
+## Final Note
+
+Please note that I've added a second implementation for this Custom Spinner following the WebComponents approach.
+
+https://github.com/mbustami/Custom-Spinner-2
