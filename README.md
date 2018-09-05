@@ -14,23 +14,24 @@
 
 
 
+
 In this project you will find:
 * a 'src' folder that contains the component folder and the index.js file.
 * a 'tests' folder for the tests.
 * a 'dist' folder that contains index.html file alongside the .js files that will be generated when you build the project
 
 
-** Setup
+## Setup
 ```
 npm install
 ```
 
-** Build
+## Build
 ```
 npm run build
 ```
 
-** Tests
+## Tests
 ```
 npm test
 ```
@@ -93,7 +94,9 @@ spinner.setOffset(initialOffset - ((percent/100) * initialOffset));
 
 The main APIs for the consumers of this component:
 
-- getInitialOffset()    
+```
+- getInitialOffset()
+```
 What do we mean by the InitialOffset, is the stroke-dashoffset property of the spinner's circle,
 which is the pixel circumference of the circle
 it's set statically to 440, as our circle has a radius of 70
@@ -101,11 +104,14 @@ so Math.ceil(r * 2 * Math.PI) will result in 440 in our case
 
 so this method will return the InitialOffset to the consumer;
 
-
+```
 - setOffset()
+```
 This method is used to set the percentage of the circle that should be filled each round.
 
+```
 - setStatus()
+```
 This method can be used to set the status, which is the number in the center of the circle,
 
 for example in the files uploader example above, this method could be used like this:
