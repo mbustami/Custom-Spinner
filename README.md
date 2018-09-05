@@ -125,7 +125,7 @@ spinner.setStatus(percent);
 ## Tests
 
 I've included some tests in the 'spinner.spec.js' file,
-and the last test will act as a consumer component that will use the spinner to inticate a timer progress,
+and the last test will act as a consumer component that will use the spinner to indicate a timer progress,
 so it will test that after the timer is done, the circle is completely filled.
 
 
